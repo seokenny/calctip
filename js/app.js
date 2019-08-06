@@ -88,7 +88,8 @@ document.querySelector(".calculate_button").addEventListener("click",function(){
 
 function tipCalculate(){
     var finalPrice = (totalBill / numberOfPeople * tipPercentage) + (totalBill / numberOfPeople);
-    document.querySelector(".perperson").innerHTML = "$" + finalPrice + " per person";
+    document.querySelector(".perperson").innerHTML = "$" + Math.round(finalPrice * 100) / 100 + " per person";
+    document.querySelector(".perperson").classList.add("bounceIn");
 }
 
 //Polyfill for requestAnimationFrame
