@@ -5,6 +5,12 @@
     font-weight:800;
 }
 
+html, body {
+    margin:0;
+    height:100%;
+    overflow:hidden;
+}
+
 #container {
     text-align:center;
     overflow:hidden;
