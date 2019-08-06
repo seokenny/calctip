@@ -8,6 +8,7 @@
 #container {
     text-align:center;
     overflow:hidden;
+    height:100vh;
 }
 
 .wt_center {
