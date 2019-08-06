@@ -1,6 +1,8 @@
 *, body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin:unset;
     padding:unset;
+    font-family:"Nunito";
+    font-weight:800;
 }
 
 #container {
@@ -51,6 +53,7 @@
 .bill_input_contain {
     background-color:white;
     height:40px;
+    margin:0;
 }
 
 .people_key {
@@ -100,8 +103,17 @@
 
 .sect_title {
     margin:15px 0;
+    font-size:.8em;
+    color:white;
+    letter-spacing:2px;
 }
 
 .selected_key {
     background-color:#0d8b72;
+    color:white;
+}
+
+.final_price {
+    margin-top:40px;
+    color:white;
 }
