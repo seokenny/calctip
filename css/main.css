@@ -44,7 +44,7 @@
 }
 
 .calculate_button {
-    position:absolute;
+    position:fixed;
     bottom:0;
     height:65px;
     width:100%;
