@@ -23,6 +23,7 @@
 
 #calculator_model {
     height:100vh;
+    overflow:hidden;
     width:100%;
     background-color:#14080e;
 }
@@ -34,6 +35,10 @@
     position:relative;
     color:#e9d985;
     background-color:#49475B;
+}
+
+.header_tip {
+    font-size:1.5em;
 }
 
 .calculate_button {
